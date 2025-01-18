@@ -1,0 +1,86 @@
+/* Header Section */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+  width: 90%;
+  margin-left: 5%;
+  position: fixed;
+  top: 0;
+  /* z-index: 3; */
+}
+header img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 100%;
+}
+#links1 {
+  display: flex;
+  font-size: xxx-large;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+/* About Section */
+#about {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  align-items: center;
+  background-color: aquamarine;
+  text-align: center;
+  padding: 10%;
+  font-size: xxx-large;
+  margin-top: 10%;
+}
+
+#about img {
+  width: 40rem;
+  height: 40rem;
+  border-radius: 100%;
+}
+
+/* Projects Section */
+#projects {
+  font-size: xx-large;
+  text-align: center;
+  padding: 10%;
+}
+
+#work {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  padding: 4rem;
+  margin-top: 5%;
+}
+
+#work img{
+width: 40rem;
+
+}
+/* Contacts Section */
+#contact {
+  text-align: center;
+  background-color: antiquewhite;
+  padding: 5%;
+  font-size: xx-large;
+}
+#links2 {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  
+}
+
+/* Footer Section */
+#footer {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 10%;
+  font-size: xx-large;
+  gap: 2rem;
+  font-weight: 800;
+}
